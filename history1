@@ -1,0 +1,277 @@
+    1  ip addr
+    2  ping 192.168.1.254
+    3  nslookup 
+    4  ping 10.221.40.51
+    5  tracert 10.221.40.51
+    6  traceroute
+    7  ip addr
+    8  service NetworkManager restart
+    9  ip addr
+   10  ping 10.221.40.51
+   11  reboot
+   12  ping 10.220.40.51
+   13  exit
+   14  sudo apt update
+   15  sudo apt -y upgrade
+   16  sudo -y autoremove
+   17  sudo apt -y autoremove
+   18  reboot
+   19  ./ubuntu_install.sh
+   20  . ./ubuntu_install.sh
+   21  ping efra1fp1.edu.emccom
+   22  ping efra1fp1.edu.emc.com
+   23  smb://efra1fp1.edu.emc.com/lab
+   24  smb://efra1fp1.edu.emc.com/
+   25  ls
+   26  cd Downloads/
+   27  ls
+   28  ./ubuntu_install.sh
+   29  sudo ./ubuntu_install.sh
+   30  sudo
+   31  ubuntu_install.sh
+   32  . ./ubuntu_install.sh 
+   33  cd Downloads/
+   34  ls
+   35  . ./further_customizations.sh 
+   36  exit
+   37  reboot
+   38  sudo apt-get install open-vm-tools-desktop
+   39  suto reboot
+   40  sudo reboot
+   41  pwd
+   42  ftp 10.221.64.10
+   43  ls
+   44  sudo -i
+   45  wget https://www.google.com
+   46  ls
+   47  rm index.html 
+   48  vi /etc/timezone 
+   49  sudo shutdown -h now
+   50  gradle
+   51  java -version
+   52  sudo apt update
+   53  sudo apt -y upgrade
+   54  sudo apt -y autoremove
+   55  reboot
+   56  . ./ubuntu_install.sh
+   57  reboot
+   58  ./gradlew bootRun
+   59  cf login
+   60  cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+   61  ./ggradlew clean build
+   62  ./gradlew clean build
+   63  cf push pal-tracker-test -p build/libs/pal-tracker.jar
+   64  cf push pal-tracker-test -p build/libs/pal-tracker.jar --random-route --no-start
+   65  cf set-env pal-tracke-testr JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+   66  cf set-env pal-tracker-test JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+   67  cf start pal-tracker-test
+   68  exit
+   69  cf install-plugin mysql-plugin
+   70  cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
+   71  cf add-plugin-repo CF-Community http://plugins.cloudfoundry.org
+   72  cf install-plugin mysql-plugin
+   73  cf repo-plugins
+   74  clear
+   75  cd home
+   76  ls
+   77  cd Downloads/
+   78  ls
+   79  cf install-plugin cf-mysql-plugin-linux-amd64 
+   80  cf mysql tracker-database
+   81  cf services
+   82  cf apps
+   83  cf mysql tracker-database
+   84  exit
+   85  ls -a
+   86  rm -rf .cf
+   87  ls -a
+   88  cd workspace/
+   89  ls
+   90  cd ..
+   91  rm -r workspace
+   92  ls
+   93  mkdir workspace
+   94  exit
+   95  gradle
+   96  clear
+   97  cf ssh
+   98  clear
+   99  cf mysql
+  100  cd Downloads/
+  101  cf install-plugin cf-mysql-plugin-linux-amd64 
+  102  cf login
+  103  cf sesrvices
+  104  cf services
+  105  cf mysql tracker-database1
+  106  cf apps
+  107  cf mysql tracker-db1
+  108  cf logout
+  109  ls -a
+  110  rm -r .cf
+  111  cleeeeeeeeeeeear
+  112  clear
+  113  cf mysql
+  114  mysql -urrot
+  115  mysql -uroot
+  116  clar
+  117  clear
+  118  cd Downloads/
+  119  ls
+  120  cf services
+  121  cf login 
+  122  cf mysql tracker-database
+  123  cf install-plugin mysql-plugin
+  124  ls
+  125  cd Downloads/
+  126  ls
+  127  cf install-plugin cf-mysql-plugin-linux-amd64 
+  128  cf mysql tracker-database
+  129  cf services
+  130  cf apps
+  131  cf mysql tracker-database
+  132  exit
+  133  cf logout
+  134  exit
+  135  ls
+  136  cd workspace/
+  137  touch build.gradle
+  138  mkdir assignment-submission
+  139  mv build.gradle ./assignment-submission
+  140  cd assignment-submission/
+  141  ls
+  142  ./gradlew testAssignment -PexampleUrl=http://www.example.com
+  143* 
+  144  ./gradlew testAssignment -PexampleUrl=http://www.example.com
+  145  ls -a
+  146  rm -r .cf
+  147  cf mysql
+  148  cf logout
+  149  clear
+  150  cd Downloads/
+  151  cf install-plugin cf-mysql-plugin-linux-amd64 
+  152  shutdown
+  153  shutdown -t now
+  154  shutdown -t 0
+  155  mkdir -p ~/workspace/assignment-submission
+  156  cd ~/workspace/assignment-submission
+  157  gradle wrapper
+  158  touch build.gradle
+  159  ./gradlew tasks
+  160  ./gradlew testAssignment
+  161  ./gradlew testAssignment -PexampleUrl=http://www.example.com
+  162  cd..
+  163  cd ..
+  164  cd pal-tracker/
+  165  git log --graph --decorate --oneline --all
+  166  git remote add origin https://github.com/AnjanaGR/pal-tracker.git
+  167  git push origin master --tags
+  168  gradle wrapper --gradle-version 6.0.1 --distribution-type all
+  169  ls
+  170  rootProject.name = "pal-tracker"
+  171  ls
+  172  ./gradlew tasks
+  173  ./gradlew bootRun
+  174  cf --help
+  175* 
+  176  cf -login
+  177  cf login
+  178  cf target
+  179  cf logout
+  180  cf login
+  181  cf push --help
+  182  ./gradlew clean build
+  183  cf target
+  184  cf push --help
+  185  cf push pal-tracker -p build/libs/pal-tracker.jar --random-route --no-start
+  186  cf set-env pal-tracker JBP_CONFIG_OPEN_JDK_JRE '{ jre: { version: 11.+ } }'
+  187  cf start pal-tracker
+  188  cf apps
+  189  git add .
+  190  git commit -m "lab1 Springboot Application "
+  191  git config --global user.email "anjanagr94@gmail.com"
+  192  git config --global user.name "anjana"
+  193  git commit -m "lab1 Springboot Application "
+  194  git push
+  195  cd ..
+  196  cd assignment-submission/
+  197  ls
+  198* 
+  199* 
+  200  ./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=http://pal-tracker-chatty-kudu-fe.cfapps.io/
+  201  cf logout
+  202  cf login 
+  203  history
+  204  history >ht.txt
+  205  ls
+  206  ping
+  207  <pre>1  ip addr
+  208  git cherry-pick deployment-start
+  209  ./gradlew bootRun
+  210  cd .
+  211  cd ..
+  212  cd pal-tracker/
+  213  ./gradlew bootRun
+  214  ./gradlew test
+  215  ./gradlew bootrun
+  216  ./gradlew build pal-tracke
+  217* 
+  218  ./gradlew clean build
+  219  cf push pal-tracker-test -p build/libs/pal-tracker.jar --random-route --no-start
+  220  git add .
+  221  git commit -m "env controller"
+  222  git push
+  223  git cherry-pick deployment-start
+  224  ./gradlew clean build
+  225  ./gradlew bootrun
+  226  cf push pal-tracker -p build/libs/pal-tracker.jar
+  227  cf target
+  228  cf logout
+  229  cf login
+  230  cf apps
+  231  cf push pal-tracker -p build/libs/pal-tracker.jar
+  232  cf logs pal-tracker
+  233  cf logs pal-tracker --recent
+  234  cf set-env --help
+  235  cf set-env pal-tracker welcome_message "Hello from Cloud Foundry"
+  236  cf env pal-tracker
+  237  cf restart pal-tracker
+  238  cf apps
+  239  cf delete pal-tracker
+  240  cf apps
+  241  cf push
+  242  cd ~/workspace/assignment-submission
+  243  ./gradlew cloudNativeDeveloperCloudFoundry -PserverUrl=http://pal-tracker-hilarious-hyena-ex.cfapps.io/
+  244  cd ~/workspace/pal-tracker
+  245  git cherry-pick pipeline-start
+  246  git add .
+  247  git commit -m "lab2 Springboot Application-Env Variables "
+  248  git push
+  249  git cherry-pick pipeline-start
+  250  cf target
+  251  cf check-route pal-tracker-archana_anjana cfapps.io
+  252  cf map-route pal-tracker-archana_anjana
+  253  cf map-route pal-tracker-archana_anjana cfiapps.io
+  254  cf map-route pal-tracker cfapps.io --hostname=pal-tracker-archana_anjana
+  255  cf apps
+  256  cf restart pal-tracker
+  257  cf apps
+  258  cf map-route pal-tracker cfapps.io --hostname=pal-tracker-archana-anjana
+  259  cf apps
+  260  cf push
+  261  git add .
+  262  git commit -m "pipeline"
+  263  git push
+  264  cd ~/workspace/assignment-submission
+  265  ./gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=http://pal-tracker-archana-anjana.cfapps.io/
+  266  ./gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=http://pal-tracker-archana-anjana.cfapps.io
+  267  cd ..
+  268  cd pal-tracker/
+  269  git add .
+  270  git commit
+  271  git commit -m "pipeline"
+  272  git push
+  273  cd ~/workspace/assignment-submission
+  274  ./gradlew cloudNativeDeveloperReviewPipeline -PreviewUrl=http://pal-tracker-archana-anjana.cfapps.io/
+  275  history
+  276  history hst1.txt
+  277  history >his1.txt
